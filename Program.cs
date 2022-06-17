@@ -124,8 +124,10 @@ Console.Write("Number is odd");
 Console.Write("Imput number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 1;
-while(current < num){
-  if (num % 2 == 0){
+while(current <= num)
+{
+  {
+  if (current % 2 == 0)
     Console.Write(current + " ");
   current++;
   }
